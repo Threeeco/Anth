@@ -1,0 +1,56 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+
+		<title>Home</title>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="css/supersized.css" type="text/css" media="screen" />
+		<link rel="stylesheet" href="theme/supersized.shutter.css" type="text/css" media="screen" />
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/jquery.easing.min.js"></script>
+		<script type="text/javascript" src="js/supersized.3.2.7.min.js"></script>
+		<script type="text/javascript" src="theme/supersized.shutter.min.js"></script>
+		<script type="text/javascript" src="js/script.js"></script>
+	</head>
+<body>
+	<div id="homemain" class="clearfix">
+	<div class="navbg clearfix">
+		<div class="sidebar clearfix">
+		    <!-- ********** logo *********** -->
+		    <div id="mainlogo">
+		    	<a href="index.html"><img src="img/logo.png" alt="logo"></a>
+		    </div>
+		    <!-- ********** close logo *********** -->	
+		    <div id="mobileNav"><a href="#menu" class="box-shadow-menu"></a></div>
+		    <nav>
+		    	<a href="index.html" class="active">Home</a>
+		    	<a href="gallery.html">Works</a>
+		    	<a href="store.html">Buy</a>
+		    	<a href="blog.html">Blog</a>
+		    	<a href="about.html">About</a>
+		    </nav>
+		</div>
+	</div>
+ 
+	<!--Control Bar-->
+	<div class="ctrl-wrap">
+	<div id="controls-wrapper" class="load-item">
+		<div id="controls">
+			<!--Slide captions displayed here-->
+			<div id="slidecaption"></div>
+		</div>
+		<ul id="slide-list"></ul>
+	</div>
+</div>
+	
+	<div id="bg-pattern"></div>
+</div>
+<script type="text/javascript">
+			$('#mobileNav').click(function () {
+				$('nav').slideToggle();
+				return false;
+			});
+		</script>
+</body>
+</html>
